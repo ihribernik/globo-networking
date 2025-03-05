@@ -8,6 +8,11 @@ variable "environment" {
   default     = "development"
 }
 
+variable "billing_code" {
+  type        = string
+  description = "(Require) value for billing code tag"
+}
+
 variable "region" {
   type        = string
   description = "(Optional) AWS Region to use. Default: us-east-1"
