@@ -5,8 +5,6 @@
 variable "environment" {
   type        = string
   description = "(Required) Environment of all resources"
-  default     = "us-east-1"
-
 }
 
 variable "billing_code" {
@@ -17,7 +15,7 @@ variable "billing_code" {
 variable "region" {
   type        = string
   description = "(Required) AWS Region to use. Default: us-east-1"
-
+  default     = "us-east-1"
 }
 
 variable "prefix" {
